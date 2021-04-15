@@ -1,0 +1,17 @@
+/* font size */
+.fs_07{
+    font-size: 0.7rem;
+}
+.fs_08{
+    font-size: 0.8rem;
+}
+.fs_1{
+    font-size: 1rem;
+}
+.fs_11{
+    font-size: 1.1rem;
+}
+
+.bold{
+    font-weight: 600;
+}
