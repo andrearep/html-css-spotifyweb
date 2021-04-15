@@ -1,0 +1,40 @@
+/* background colors */
+
+.bg_black{
+    background-color: black;
+}
+.bg_darkblue{
+    background-color: #141922;
+}
+.bg_darkgrey{
+    background-color: #080B12;
+}
+.bg_grey{
+    background-color: #282828;
+}
+
+/* font colors */
+
+
+/*++++++++++++++++++
+     scala di grigi
+ ++++++++++++++++ */
+ .white{
+    color: white;
+}
+    /* nav superiore */
+    .grey1{
+        color: #7D7F84;
+    }
+    /* artisti */
+    .grey2{
+        color: #7A7D81;
+    }
+    /* banner laterale */
+    .grey3{
+        color: #717171;
+    }
+    /* hover color */
+    .grey3{
+        color: #D2D2D2;
+    }
