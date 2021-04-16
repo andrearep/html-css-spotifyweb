@@ -115,3 +115,13 @@ a{
 
     border-top: 3px solid #5C5C5C;
 }
+
+main{
+    padding-top: 60px;
+    margin-left: 200px;
+    padding-left: 30px;
+}
+
+.song{
+width: calc(100%);
+}

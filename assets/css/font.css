@@ -8,6 +8,9 @@
 .fs_08{
     font-size: 0.8rem;
 }
+.fs_09{
+    font-size: 0.9rem;
+}
 .fs_1{
     font-size: 1rem;
 }
@@ -17,4 +20,7 @@
 
 .bold{
     font-weight: 600;
+}
+.bolder{
+    font-weight: 800;
 }
