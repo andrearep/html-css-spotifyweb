@@ -40,7 +40,8 @@
             <!-- menu home serch and library
             <!-- HOME -->
             <li class="mb-1">
-                <a class="grey4 fs_07" href=""><img class="icon_menu mr-2" src="./assets/img/home.svg" alt="">Home</a>
+                <a class="home grey4 fs_07" href=""><img class="icon_menu mr-2" src="./assets/img/home.svg"
+                        alt="">Home</a>
             </li>
             <!-- SEARCH -->
             <li class="mb-1">
@@ -117,7 +118,7 @@
                 <div class="control_music white d-flex">
                     <span class="mr-4 fs_08"><i class="fas fa-random"></i></span>
                     <span class="mr-4 fs_08"><i class="fas fa-step-backward"></i></span>
-                    <span class="mr-4 fs_14"> <i class="far fa-play-circle"></i> </span>
+                    <span class="mr-4 fs_14"> <i class="play_icon far fa-play-circle"></i> </span>
                     <span class="mr-4 fs_08"><i class="fas fa-step-forward"></i></span>
                     <span class="mr-4 fs_08"><i class="fas fa-redo-alt"></i></span>
                 </div>
@@ -148,7 +149,7 @@
 
         <div class="top_menu mb-4">
             <ul class="d-flex justify-content-center">
-                <li class="mr-3"> <a class="fs_08 grey3 bold" href="">IN EVDENZA</a></li>
+                <li class="mr-3 evidenza"> <a class=" fs_08 grey3 bold" href="">IN EVDENZA</a></li>
                 <li class="mr-3"> <a class="fs_08 grey3 bold" href="">PODCAST</a></li>
                 <li class="mr-3"> <a class="fs_08 grey3 bold" href="">CLASSIFICHE</a></li>
                 <li class="mr-3"> <a class="fs_08 grey3 bold" href="">GENERI E MOOD</a></li>
@@ -162,33 +163,69 @@
         <div class="row w-100 d-flex justify-content-around text-center">
 
             <div class=" col-lg-2 d-flex flex-column flex-wrap">
-                <img class="song mb-2" src="./assets/img/song/metal_lifting.jpg" alt="">
+                <a href="" class="song position-relative">
+                    <img class="song mb-2" src="./assets/img/song/metal_lifting.jpg" alt="">
+                    <div class="play_hover d-flex justify-content-center align-items-center">
+                        <i class="hide far fa-play-circle"></i>
+                    </div>
+                </a>
                 <span class="song_name grey5 fs_09 bold mb-1">Heavy Metal</span>
                 <span class="artist grey3 bold fs_08">subtitle</span>
             </div>
+
             <div class="col-lg-2 d-flex flex-column flex-wrap">
-                <img class="song mb-2" src="./assets/img/song/stranger.jpeg" alt="">
+                <a href="" class="song position-relative">
+                    <img class="song mb-2" src="./assets/img/song/stranger.jpeg" alt="">
+                    <div class="play_hover d-flex justify-content-center align-items-center">
+                        <i class="hide far fa-play-circle"></i>
+                    </div>
+                </a>
                 <span class="song_nam8 bold grey5 fs_09">Stranger Things, Vol. 1 (a Netflix Original Series
                     Soundtrack)</span>
                 <span class="artist grey3 fs_08">subtitle</span>
             </div>
             <div class="col-lg-2 d-flex flex-column flex-wrap">
-                <img class="song mb-2" src="./assets/img/song/aquietplace.jpeg" alt="">
+                <a href="" class="song position-relative">
+                    <img class="song mb-2" src="./assets/img/song/aquietplace.jpeg" alt="">
+                    <div class="play_hover d-flex justify-content-center align-items-center">
+                        <i class="hide far fa-play-circle"></i>
+                    </div>
+                </a>
                 <span class="song_name grey5 fs_09 bold">A Quiet Place</span>
                 <span class="artist grey3 bold fs_08">subtitle</span>
             </div>
+
             <div class="col-lg-2 d-flex flex-column flex-wrap">
-                <img class="song mb-2" src="./assets/img/song/split.jpeg" alt="">
+                <a href="" class="song position-relative">
+                    <img class="song mb-2" src="./assets/img/song/split.jpeg" alt="">
+                    <div class="play_hover d-flex justify-content-center align-items-center">
+                        <i class="hide far fa-play-circle"></i>
+                    </div>
+                </a>
                 <span class="song_name grey5 fs_09 bold">Split</span>
                 <span class="artist grey3 bold fs_08">subtitle</span>
             </div>
+
             <div class="col-lg-2 d-flex flex-column flex-wrap">
-                <img class="song mb-2" src="./assets/img/song/cure.jpeg" alt="">
+                <a href="" class="song position-relative">
+                    <img class="song mb-2" src="./assets/img/song/cure.jpeg" alt="">
+                    <div class="play_hover d-flex justify-content-center align-items-center">
+                        <i class="hide far fa-play-circle"></i>
+                    </div>
+                </a>
+
                 <span class="song_name grey5 fs_09 bold">A cure for wellness</span>
                 <span class="artist grey3 bold fs_08">subtitle</span>
             </div>
+
             <div class="col-lg-2 d-flex flex-column flex-wrap">
-                <img class="song mb-2" src="./assets/img/song/sinister.jpeg" alt="">
+                <a href="" class="song position-relative">
+                    <img class="song mb-2" src="./assets/img/song/sinister.jpeg" alt="">
+                    <div class="play_hover d-flex justify-content-center align-items-center">
+                        <i class="hide far fa-play-circle"></i>
+                    </div>
+                </a>
+
                 <span class="song_name grey5 fs_09 bold">Sinister</span>
                 <span class="artist grey3 bold fs_08">subtitle</span>
             </div>
@@ -200,11 +237,21 @@
         <span class="subtitle grey3 bold fs_08">Più ascolti, più accurati saranno i suggerimenti.</span>
         <div class="row w-100 d-flex text-center mt-3 mb-3">
             <div class=" col-lg-2 d-flex flex-column flex-wrap">
-                <img class="song mb-2" src="./assets/img/song/radar.jpeg" alt="">
+                <a href="" class="song position-relative">
+                    <img class="song mb-2" src="./assets/img/song/radar.jpeg" alt="">
+                    <div class="play_hover d-flex justify-content-center align-items-center">
+                        <i class="hide far fa-play-circle"></i>
+                    </div>
+                </a>
                 <span class="song_name grey5 fs_09 bold mb-1">Release Radar</span>
             </div>
             <div class="col-lg-2 d-flex flex-column flex-wrap">
-                <img class="song mb-2" src="./assets/img/song/mixdaily.jpeg" alt="">
+                <a href="" class="song position-relative">
+                    <img class="song mb-2" src="./assets/img/song/mixdaily.jpeg" alt="">
+                    <div class="play_hover d-flex justify-content-center align-items-center">
+                        <i class="hide far fa-play-circle"></i>
+                    </div>
+                </a>
                 <span class="song_nam8 bold grey5 fs_09">Daily Mix 1</span>
                 <span class="artist grey3 fs_08"></span>
             </div>
@@ -214,11 +261,21 @@
         <span class="subtitle grey3 bold fs_08">Più ascolti, più accurati saranno i suggerimenti.</span>
         <div class="row w-100 d-flex text-center mt-3">
             <div class=" col-lg-2 d-flex flex-column flex-wrap">
-                <img class="song mb-2 rounded-circle" src="./assets/img/song/youg.jpeg" alt="">
+                <a href="" class="song position-relative">
+                    <img class="song mb-2 rounded-circle" src="./assets/img/song/youg.jpeg" alt="">
+                    <div class="play_hover d-flex justify-content-center align-items-center rounded-circle">
+                        <i class="hide far fa-play-circle"></i>
+                    </div>
+                </a>
                 <span class="song_name grey5 fs_09 bold mb-1">Lana Del Rey</span>
             </div>
             <div class="col-lg-2 d-flex flex-column flex-wrap">
-                <img class="song mb-2 rounded-circle" src="./assets/img/song/einaudi.jpeg" alt="">
+                <a href="" class="song position-relative">
+                    <img class="song mb-2 rounded-circle" src="./assets/img/song/einaudi.jpeg" alt="">
+                    <div class="play_hover d-flex justify-content-center align-items-center rounded-circle">
+                        <i class="hide far fa-play-circle"></i>
+                    </div>
+                </a>
                 <span class="song_nam8 bold grey5 fs_09">Luigi Einaudi</span>
                 <span class="artist grey3 fs_08"></span>
             </div>
