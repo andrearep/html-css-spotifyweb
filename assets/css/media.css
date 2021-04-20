@@ -1,0 +1,17 @@
+
+@media (max-width: 575.98px) {
+    #left_banner{
+        width:50px;
+    }
+    main{
+        padding-top: 60px;
+        margin-left: 50px;
+        margin-bottom: 60px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+    .xs_d_none{
+        display: none;
+    }
+ }
+

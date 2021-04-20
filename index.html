@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./assets/css/font.css">
     <link rel="stylesheet" href="./assets/css/padding_margin.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
     <link rel="stylesheet" href="./assets/css/hover.css">
 
 </head>
@@ -40,24 +41,25 @@
             <!-- menu home serch and library
             <!-- HOME -->
             <li class="mb-1">
-                <a class="home grey4 fs_07" href=""><img class="icon_menu mr-2" src="./assets/img/home.svg"
-                        alt="">Home</a>
+                <a class="home grey4 fs_07 " href=""><img class="icon_menu mr-2" src="./assets/img/home.svg" alt="">
+                    <span class="xs_d_none">Home</span> </a>
             </li>
             <!-- SEARCH -->
             <li class="mb-1">
-                <a class="grey3 fs_07" href=""><img class="icon_menu mr-2" src="./assets/img/search.svg"
-                        alt="">Cerca</a>
+                <a class="grey3 fs_07 " href=""><img class="icon_menu mr-2" src="./assets/img/search.svg" alt=""> <span
+                        class="xs_d_none">Cerca </span> </a>
             </li>
             <!-- YOUR LIBRARY -->
             <li class="mb-1">
-                <a class="grey3 fs_07" href=""><img class="icon_menu mr-2" src="./assets/img/libreria.svg" alt="">La tua
-                    libreria</a>
+                <a class="grey3 fs_07 " href=""><img class="icon_menu mr-2" src="./assets/img/libreria.svg" alt="">
+                    <span class="xs_d_none">La tua
+                        libreria</span> </a>
             </li>
         </ul>
 
         <!-- PLAYLIST -->
-        <h3 class="bold white mb-2 fs_08">PLAYLIST</h3>
-        <div class="playlist ">
+        <h3 class="bold white mb-2 fs_08 xs_d_none">PLAYLIST</h3>
+        <div class="playlist  xs_d_none">
             <a href=""> <i class="fas fa-plus mr-2 mb-2"></i>
             </a>
             <a href="" class="new_pl grey3 bold fs_08"> Crea Playlist</a>
@@ -88,7 +90,7 @@
         </div>
 
         <!-- DOWNLOAD APP AND USER -->
-        <div class="bott_bann mt-auto mb-1">
+        <div class="bott_bann mt-auto mb-1 xs_d_none">
             <a href="" class="grey3 d-block fs_07 pb-2 mb-1 border-bottom"><img class="download_icon mr-3"
                     src="./assets/img/download.svg" alt="">
                 Installa app</a>
@@ -148,7 +150,7 @@
     <main class="bg_darkblue">
 
         <div class="top_menu mb-4">
-            <ul class="d-flex justify-content-center">
+            <ul class="d-flex justify-content-center flex-wrap">
                 <li class="mr-3 evidenza"> <a class=" fs_08 grey3 bold" href="">IN EVDENZA</a></li>
                 <li class="mr-3"> <a class="fs_08 grey3 bold" href="">PODCAST</a></li>
                 <li class="mr-3"> <a class="fs_08 grey3 bold" href="">CLASSIFICHE</a></li>
@@ -160,9 +162,9 @@
         </div>
 
         <h4 class="grey5 mb-3">Recently played</h4>
-        <div class="row w-100 d-flex justify-content-around text-center">
+        <div class="row w-100 d-flex text-center">
 
-            <div class=" col-lg-2 d-flex flex-column flex-wrap">
+            <div class="col-lg-2 d-flex col-sm-3 col-6 flex-column flex-wrap">
                 <a href="" class="song position-relative">
                     <img class="song mb-2" src="./assets/img/song/metal_lifting.jpg" alt="">
                     <div class="play_hover d-flex justify-content-center align-items-center">
@@ -173,18 +175,18 @@
                 <span class="artist grey3 bold fs_08">subtitle</span>
             </div>
 
-            <div class="col-lg-2 d-flex flex-column flex-wrap">
+            <div class="col-lg-2 d-flex col-sm-3 col-6 flex-column flex-wrap">
                 <a href="" class="song position-relative">
                     <img class="song mb-2" src="./assets/img/song/stranger.jpeg" alt="">
                     <div class="play_hover d-flex justify-content-center align-items-center">
                         <i class="hide far fa-play-circle"></i>
                     </div>
                 </a>
-                <span class="song_nam8 bold grey5 fs_09">Stranger Things, Vol. 1 (a Netflix Original Series
+                <span class="song_name bold grey5 fs_09">Stranger Things, Vol. 1 (a Netflix Original Series
                     Soundtrack)</span>
                 <span class="artist grey3 fs_08">subtitle</span>
             </div>
-            <div class="col-lg-2 d-flex flex-column flex-wrap">
+            <div class="col-lg-2 d-flex col-sm-3 col-6 flex-column flex-wrap">
                 <a href="" class="song position-relative">
                     <img class="song mb-2" src="./assets/img/song/aquietplace.jpeg" alt="">
                     <div class="play_hover d-flex justify-content-center align-items-center">
@@ -195,7 +197,7 @@
                 <span class="artist grey3 bold fs_08">subtitle</span>
             </div>
 
-            <div class="col-lg-2 d-flex flex-column flex-wrap">
+            <div class="col-lg-2 d-flex col-sm-3 col-6 flex-column flex-wrap">
                 <a href="" class="song position-relative">
                     <img class="song mb-2" src="./assets/img/song/split.jpeg" alt="">
                     <div class="play_hover d-flex justify-content-center align-items-center">
@@ -206,7 +208,7 @@
                 <span class="artist grey3 bold fs_08">subtitle</span>
             </div>
 
-            <div class="col-lg-2 d-flex flex-column flex-wrap">
+            <div class="col-lg-2 d-flex col-sm-3 col-6 flex-column flex-wrap">
                 <a href="" class="song position-relative">
                     <img class="song mb-2" src="./assets/img/song/cure.jpeg" alt="">
                     <div class="play_hover d-flex justify-content-center align-items-center">
@@ -218,7 +220,7 @@
                 <span class="artist grey3 bold fs_08">subtitle</span>
             </div>
 
-            <div class="col-lg-2 d-flex flex-column flex-wrap">
+            <div class="col-lg-2 d-flex col-sm-3 col-6 flex-column flex-wrap">
                 <a href="" class="song position-relative">
                     <img class="song mb-2" src="./assets/img/song/sinister.jpeg" alt="">
                     <div class="play_hover d-flex justify-content-center align-items-center">
@@ -236,7 +238,7 @@
         <h4 class="grey5 mb-1">Creato per John Doe</h4>
         <span class="subtitle grey3 bold fs_08">Più ascolti, più accurati saranno i suggerimenti.</span>
         <div class="row w-100 d-flex text-center mt-3 mb-3">
-            <div class=" col-lg-2 d-flex flex-column flex-wrap">
+            <div class=" col-lg-2 d-flex col-sm-3 col-6 flex-column flex-wrap">
                 <a href="" class="song position-relative">
                     <img class="song mb-2" src="./assets/img/song/radar.jpeg" alt="">
                     <div class="play_hover d-flex justify-content-center align-items-center">
@@ -245,7 +247,7 @@
                 </a>
                 <span class="song_name grey5 fs_09 bold mb-1">Release Radar</span>
             </div>
-            <div class="col-lg-2 d-flex flex-column flex-wrap">
+            <div class="col-lg-2 d-flex col-sm-3 col-6 flex-column flex-wrap">
                 <a href="" class="song position-relative">
                     <img class="song mb-2" src="./assets/img/song/mixdaily.jpeg" alt="">
                     <div class="play_hover d-flex justify-content-center align-items-center">
@@ -260,7 +262,7 @@
         <h4 class="grey5 mb-1">Artisti più popolari</h4>
         <span class="subtitle grey3 bold fs_08">Più ascolti, più accurati saranno i suggerimenti.</span>
         <div class="row w-100 d-flex text-center mt-3">
-            <div class=" col-lg-2 d-flex flex-column flex-wrap">
+            <div class=" col-lg-2 d-flex col-sm-3 col-6 flex-column flex-wrap">
                 <a href="" class="song position-relative">
                     <img class="song mb-2 rounded-circle" src="./assets/img/song/youg.jpeg" alt="">
                     <div class="play_hover d-flex justify-content-center align-items-center rounded-circle">
@@ -269,7 +271,7 @@
                 </a>
                 <span class="song_name grey5 fs_09 bold mb-1">Lana Del Rey</span>
             </div>
-            <div class="col-lg-2 d-flex flex-column flex-wrap">
+            <div class="col-lg-2 d-flex col-sm-3 col-6 flex-column flex-wrap">
                 <a href="" class="song position-relative">
                     <img class="song mb-2 rounded-circle" src="./assets/img/song/einaudi.jpeg" alt="">
                     <div class="play_hover d-flex justify-content-center align-items-center rounded-circle">
