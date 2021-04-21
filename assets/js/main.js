@@ -1,0 +1,1 @@
+document.getElementById('playlist1').innerHTML = "Rock anni 90";
